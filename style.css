@@ -23,4 +23,4 @@ p::selection{
     background-color: rgb(237, 165, 8);
 }
 :hover{color: #079f2a;}
-img{image-resolution: 40%;}
+img{size:5px;}
