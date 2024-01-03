@@ -1,0 +1,26 @@
+h1{border: 5px double hsl(66, 69%, 49%);
+text-shadow: 3px 3px 5px red, 3px 3px 5px #079f2a;
+}
+body{border-bottom: 5px solid rgb(158, 119, 119);
+border-top: 5px solid rgb(46, 12, 237);
+border-left: 5px solid rgb(161, 45, 45);
+border-right: 5px solid rgb(79, 5, 68);
+margin: 3%;
+position: relative;
+height:max-content;
+margin: 2%;
+background-image:url(images/bundi.jpg);
+background-size: 40%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 88%;
+}
+p{color: purple;}
+h2{ color: rgb(10, 10, 10);}
+h3{color:darkorange;}
+p::selection{
+    color: red;
+    background-color: rgb(237, 165, 8);
+}
+:hover{color: #079f2a;}
+img{image-resolution: 40%;}
